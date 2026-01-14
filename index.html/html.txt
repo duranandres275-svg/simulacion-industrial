@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de Procesos Industriales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Simulación de Procesos Industriales</h1>
+    <p>Optimización de producción e inventarios</p>
+</header>
+
+<section class="panel">
+    <h2>Parámetros de la Planta</h2>
+
+    <label>Producción por hora:</label>
+    <input type="number" id="produccion" value="50">
+
+    <label>Demanda diaria:</label>
+    <input type="number" id="demanda" value="400">
+
+    <label>Inventario inicial:</label>
+    <input type="number" id="inventario" value="200">
+
+    <button onclick="simular()">Simular Proceso</button>
+</section>
+
+<section class="resultados">
+    <h2>Resultados de la Simulación</h2>
+    <p id="resultadoProduccion"></p>
+    <p id="resultadoInventario"></p>
+    <p id="resultadoEficiencia"></p>
+</section>
+
+<footer>
+    <p>Ingeniería Industrial | Simulación y Optimización ⚙️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
