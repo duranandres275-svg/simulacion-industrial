@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Mi Página</title>
-</head>
-<body>
-  <h1>¡Hola! Mi GitHub Pages ya funciona 🚀</h1>
-</body>
-</html>
